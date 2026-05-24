@@ -1,14 +1,14 @@
 [README.md](https://github.com/user-attachments/files/28164778/README.md)
-# SPX → IHSG Lead-Lag Analysis
+# SPX to IHSG Lead-Lag Analysis
 ### Empirical test of the hypothesis that S&P 500 returns contain statistically significant leading information for IHSG (Jakarta Composite Index) returns
 
 ---
 
 ## Overview
 
-This project implements a rigorous econometric pipeline to test whether daily S&P 500 movements systematically predict next-session IHSG movements — and if so, through what channel, at what horizon, and whether that predictive power survives macro controls and out-of-sample validation.
+This project implements a rigorous econometric pipeline to test whether daily S&P 500 movements systematically predict next-session IHSG movements and if so, through what channel, at what horizon, and whether that predictive power survives macro controls and out-of-sample validation.
 
-**Central finding:** H0 is rejected. The SPX signal explains **36% of IHSG overnight-gap variance** (β = 0.243, HAC t = 14.66), shrinks only marginally to **80% retention** after controlling for VIX, and is near-zero for the intraday IHSG return — exactly where theory predicts the lead should not appear. The rolling analysis finds the overnight β is above the 3σ threshold in **100% of rolling 252-day windows**.
+**Central finding:** H0 is rejected. The SPX signal explains **36% of IHSG overnight-gap variance** (β = 0.243, HAC t = 14.66), shrinks only marginally to **80% retention** after controlling for VIX, and is near-zero for the intraday IHSG return, this is exactly where theory predicts the lead should not appear. The rolling analysis finds the overnight β is above the 3σ threshold in **100% of rolling 252-day windows**.
 
 ---
 
